@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="default_web_client_id">
+        650222803790-3qicr4jeusk4n5k9jfmgdvjoricsng46.apps.googleusercontent.com
+    </string>
 </resources>
