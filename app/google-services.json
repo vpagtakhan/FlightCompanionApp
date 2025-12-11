@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "650222803790",
+    "project_id": "flightinformation-9ad62",
+    "storage_bucket": "flightinformation-9ad62.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650222803790:android:7e1aba083e0b924e0f9c1f",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0KTDZRGYr8FdqrQX72FZVvksA03Qg0Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
