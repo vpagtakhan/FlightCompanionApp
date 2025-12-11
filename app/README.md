@@ -27,7 +27,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
 
 ## Features
 
-### ✅ Core Features
+### Core Features
 
 - **View Featured Flights**
     - Home screen shows a small list of “featured” flights.
@@ -52,7 +52,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
         - **Remove** flights they no longer want to track.
         - Tap **Refresh** to re-call the API and update the **status** of each saved flight.
 
-### 🔐 Authentication
+### Authentication
 
 - Uses **Firebase Authentication (Email/Password)**.
 - App starts in **guest mode**:
@@ -68,7 +68,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
 
 ## Screens
 
-### 🏠 Home Screen
+### Home Screen
 
 - Welcome text and short description.
 - “Featured Flights” section:
@@ -80,7 +80,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
     - Scheduled departure time (if available)
     - Status: On time / Landed / Cancelled / etc.
 
-### 🔍 Search Screen
+### Search Screen
 
 - Filter chips to choose **Search Mode**:
     - **Flight Number**
@@ -95,7 +95,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
     - Each result has a **“Save to favourites”** button (for logged-in users).
 - Uses `FlightSearchViewModel`.
 
-### ⭐ Favourite Flights Screen
+### Favourite Flights Screen
 
 - Shows list of **saved flights** from Firestore.
 - Each card displays:
@@ -107,7 +107,7 @@ The app is designed with an accessible **dark theme** and follows a simple, user
     - **Refresh** button at top to re-call the API and update status in the UI.
 - Uses `FavouritesViewModel` + `FavouritesRepository`.
 
-### 🔐 Login & Register Screens
+### Login & Register Screens
 
 - Simple forms using **email + password**.
 - Register:
@@ -177,8 +177,8 @@ Navigation is handled with **Navigation Compose** and a **bottom navigation bar*
 ### 1. Clone the project
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/vpagtakhan/FlightCompanionApp/tree/master/app
+cd /src/main/java/com/example/finalproject
 Open the project in Android Studio (Giraffe or newer recommended).
 
 2. Configure Aviationstack API key
